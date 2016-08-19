@@ -1,5 +1,5 @@
 'use strict';
-const backgroundColor = '#fafafa';
+const backgroundColor = '#eeeeee';
 const foregroundColor = '#383a42';
 const red = '#e45649';
 const green = '#50a14f';
@@ -14,7 +14,7 @@ exports.decorateConfig = config => Object.assign({}, config, {
   backgroundColor,
   foregroundColor,
   borderColor: backgroundColor,
-  cursorColor: '#526eff',
+  cursorColor: '#a0a1a7',
   colors: {
     black: foregroundColor,
     red,
@@ -42,7 +42,7 @@ exports.decorateConfig = config => Object.assign({}, config, {
     }
     .tabs_list {
       background-color: #e5e5e6 !important;
-      border-bottom-color: rgba(0, 0, 0, .15) !important;
+      border-bottom-color: rgba(0, 0, 0, .10) !important;
     }
     .tab_tab {
       color: ${white} !important;
@@ -50,7 +50,7 @@ exports.decorateConfig = config => Object.assign({}, config, {
     .tab_tab.tab_active {
       font-weight: 500;
       background-color: ${backgroundColor};
-      border-color: rgba(0, 0, 0, .25) !important;
+      border-color: rgba(0, 0, 0, .15) !important;
     }
     .tab_tab.tab_active::before {
       border-bottom-color: ${backgroundColor};
