@@ -48,7 +48,6 @@ exports.decorateConfig = config => Object.assign({}, config, {
       color: ${white} !important;
     }
     .tab_tab.tab_active {
-      font-weight: 500;
       background-color: ${backgroundColor};
       border-color: rgba(0, 0, 0, .15) !important;
     }
