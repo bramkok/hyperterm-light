@@ -88,9 +88,11 @@ exports.decorateConfig = config => Object.assign({}, config, {
     .tab_tab.tab_hasActivity {
       color: ${blue} !important;
     }
+    ${config.hyperclean && !config.hyperclean.hideTabs && `
     .terms_terms {
       margin-top: ${tabHeight} !important;
     }
+    `}
   `,
   termCSS: `
     ${config.termCSS || ''}
