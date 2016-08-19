@@ -9,12 +9,14 @@ const magenta = '#a626a4';
 const cyan = '#0184bc';
 const white = '#a0a1a7';
 const lightBlack = '#696c77';
+const tabHeight = '24px';
 
 exports.decorateConfig = config => Object.assign({}, config, {
   backgroundColor,
   foregroundColor,
   borderColor: backgroundColor,
   cursorColor: '#a0a1a7',
+  tabHeight,
   colors: {
     black: foregroundColor,
     red,
@@ -40,9 +42,14 @@ exports.decorateConfig = config => Object.assign({}, config, {
       right: 0;
       left: 0;
     }
+    .tabs_nav {
+      height: ${tabHeight} !important;
+      line-height: ${tabHeight} !important;
+    }
     .tabs_list {
       background-color: #e5e5e6 !important;
       border-bottom-color: rgba(0, 0, 0, .10) !important;
+      max-height: ${tabHeight} !important;
     }
     .tab_tab {
       color: ${white} !important;
@@ -75,8 +82,14 @@ exports.decorateConfig = config => Object.assign({}, config, {
     .tabs_title, .tab_icon, .tab_tab.tab_active {
       color: ${lightBlack} !important;
     }
+    .tab_text {
+      height: ${tabHeight} !important;
+    }
     .tab_tab.tab_hasActivity {
       color: ${blue} !important;
+    }
+    .terms_terms {
+      margin-top: ${tabHeight} !important;
     }
   `,
   termCSS: `
