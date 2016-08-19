@@ -1,5 +1,5 @@
 {
-  "name": "hyperterm-one-light",
+  "name": "hyperterm-light",
   "version": "0.5.0",
   "description": "Atom One Light theme for HyperTerm",
   "main": "index.js",
@@ -8,16 +8,19 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/andrepolischuk/hyperterm-one-light.git"
+    "url": "git+https://github.com/bramkok/hyperterm-light.git"
   },
   "keywords": [
     "hyperterm",
     "hyperterm-theme"
   ],
-  "author": "Andrey Polischuk <andre.polischuk@gmail.com>",
+  "author": {
+    "name": "Bram Kok",
+    "url": "https://bramkok.com"
+  },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/andrepolischuk/hyperterm-one-light/issues"
+    "url": "https://github.com/bramkok/hyperterm-light/issues"
   },
-  "homepage": "https://github.com/andrepolischuk/hyperterm-one-light"
+  "homepage": "https://github.com/bramkok/hyperterm-light"
 }
